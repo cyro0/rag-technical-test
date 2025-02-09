@@ -11,7 +11,7 @@ This project creates a bot that can answer questions based on a private document
 * **Document Ingestion:**  Processes text-based documents (TXT, PDF, etc.) for indexing.
 * **Vector Database:** Uses ChromaDB to store and retrieve document embeddings.
 * **Contextual Retrieval:**  Retrieves relevant document chunks based on user queries.
-* **LLM Integration:**  Uses a free, open-source LLM (e.g., Hugging Face's Falcon, Mistral, or LLaMA-2) for response generation.  *(Specify which LLM you used here)*
+* **LLM Integration:**  Uses microsoft/Phi-3-mini-4k-instruct
 * **LangChain Orchestration:** Employs LangChain to manage the retrieval and LLM interaction.
 
 ## Getting Started
