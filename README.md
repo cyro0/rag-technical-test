@@ -20,7 +20,7 @@ This project creates a bot that can answer questions based on a private document
 
 * Python 3.11.x
 * All dependencies listed in requirements.txt. Use:
-* ```bash
+```bash
 pip install -r .\requirements.txt
 
 
