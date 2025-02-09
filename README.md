@@ -18,21 +18,9 @@ This project creates a bot that can answer questions based on a private document
 
 ### Prerequisites
 
-* Python 3.x
-* Required Python packages (install using `pip`):
-    ```bash
-    pip install chromadb langchain transformers sentence_transformers  # Add other dependencies as needed
-    ```
-    *   `chromadb`: For the vector database.
-    *   `langchain`: For the RAG framework.
-    *   `transformers`: For the LLM and tokenizer.
-    *   `sentence_transformers`: For generating embeddings.
-    *(List all your dependencies here)*
+* Python 3.11.x
+* All dependencies listed in requirements.txt. Use:
+* ```bash
+pip install -r .\requirements.txt
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)  # Replace with your repo URL
-   cd YOUR_REPO_NAME
 
