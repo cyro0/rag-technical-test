@@ -8,10 +8,10 @@ This project creates a bot that can answer questions based on a private document
 
 ## Features
 
-* **Document Ingestion:**  Processes text-based documents (TXT, PDF, etc.) for indexing.
+* **Document Ingestion:**  Processes text-based documents (TXT, PDF, etc.) for indexing. Documents that you want converted to a vector database should be copied into the data folder
 * **Vector Database:** Uses ChromaDB to store and retrieve document embeddings.
 * **Contextual Retrieval:**  Retrieves relevant document chunks based on user queries.
-* **LLM Integration:**  Uses microsoft/Phi-3-mini-4k-instruct
+* **LLM Integration:**  Uses microsoft/Phi-3-mini-4k-instruct as default
 * **LangChain Orchestration:** Employs LangChain to manage the retrieval and LLM interaction.
 
 ## Getting Started
@@ -20,7 +20,20 @@ This project creates a bot that can answer questions based on a private document
 
 * Python 3.11.x
 * All dependencies listed in requirements.txt
+
+
+### Installation (Windows powershell)
+
+* Create a virtual environment with:
+```bash
+python -m venv .venv
+```
+* Activate created environment with:
+```bash
+.venv\Scripts\activate
+```
+* Install all dependencies with:
 ```bash
 pip install -r .\requirements.txt
-
-
+```
+* You will also need a HuggingFace account and an Access Token (read only) to your account
