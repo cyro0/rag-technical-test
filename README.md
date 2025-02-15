@@ -22,7 +22,7 @@ This project creates a bot that can answer questions based on a private document
 * All dependencies listed in requirements.txt
 
 
-### Installation (Windows powershell)
+### Installation commands (Windows powershell)
 
 * Create a virtual environment with:
 ```bash
