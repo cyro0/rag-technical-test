@@ -14,7 +14,7 @@ This project creates a bot that can answer questions based on a private document
 * **LLM Integration:**  Uses microsoft/Phi-3-mini-4k-instruct as default
 * **LangChain Orchestration:** Employs LangChain to manage the retrieval and LLM interaction.
 
-## Getting Started
+## Installation
 
 ### Prerequisites
 
